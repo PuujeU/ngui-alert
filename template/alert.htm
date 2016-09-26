@@ -1,0 +1,7 @@
+<div ng-class="$alert.typeCss" ng-if="$alert.showing">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close" ng-click="$alert.close()">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <i ng-show="$alert.icon" ng-class="$alert.iconCss"></i> {{$alert.message}}
+</div>
+

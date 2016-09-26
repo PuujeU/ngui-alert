@@ -1,0 +1,10 @@
+{
+  "name": "ngui-alert",
+  "version": "1.0.0",
+  "description": "Angular sample alert module",
+  "main": "core.js",
+  "scripts": {
+    "start":"http-server ."
+  },
+  "private": true
+}

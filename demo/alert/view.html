@@ -1,0 +1,15 @@
+<h2>default alert</h2>
+<div ngui-alert="$alert"></div>
+
+<hr>
+<button ng-click="alertShow()" class="btn btn-default">default</button>
+<button ng-click="$alert.success('success message')" class="btn btn-success">default</button>
+<button ng-click="$alert.info('info message')" class="btn btn-info">info</button>
+<button ng-click="$alert.warning('warning message')" class="btn btn-warning">warning</button>
+<button ng-click="$alert.error('error message')" class="btn btn-danger">error</button>
+
+<h2>custom alert</h2>
+<div ngui-alert="$custom"></div>
+
+<button ng-click="customShow()" class="btn btn-default">show</button>
+<button ng-click="customShowIcon()" class="btn btn-default">show icon</button>

@@ -1,0 +1,17 @@
+{
+  "name": "ngui-alert",
+  "homepage": "https://github.com/PuujeU/ngui-alert",
+  "authors": [
+  ],
+  "description": "Angular sample alert module",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular-route": "^1.5.7"
+  }
+}
